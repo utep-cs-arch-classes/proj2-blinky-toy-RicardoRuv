@@ -104,22 +104,22 @@ void dimming(){
 void changeDimming(){
   if (dim ==0){
       dim =1;
-      buzzer_set_period(6666);
+      // buzzer_set_period(6666);
     }
   else if (dim == 1){
     dim =2;
-    buzzer_set_period(4000);
+    // buzzer_set_period(4000);
   }
   else if(dim ==2){
-    buzzer_set_period(5000);
+    // buzzer_set_period(5000);
     dim =3;
   }
   else if (dim == 3){
-    buzzer_set_period(4500);
+    // buzzer_set_period(4500);
     dim =4;
   }
   else if(dim ==4){
-    buzzer_set_period(3400);
+    // buzzer_set_period(3400);
     dim =0;
   }
 }
